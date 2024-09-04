@@ -1,6 +1,8 @@
 name: jd_action
 
 on:
+  # 手动触发事件
+  workflow_dispatch:
   repository_dispatch:
   release:
     types: published
